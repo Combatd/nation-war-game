@@ -28,12 +28,16 @@ Bootstrap
 - Even on last turn where one player has no population, they are still allowed to continue attacking. This allows for a possible tie where a "Mutually Assured Destruction" has occurred. The end is when all cities are gone and all attacks are exhausted.
 
 ## Class Player 
+```
 constructor {
-    this.cities = [100, 75, 50, 25]
-    this.infantry = 3
-    this.aircaft = 1
-    this.missles = 0
+    this.cityOne = 100; 
+    this.cityTwo = 75; 
+    this.cityThree: 50;
+    this.infantry = 3;
+    this.aircaft = 1;
+    this.missles = 0;
 }
+```
 
 On the DOM, the attack method will need to somehow allow the player to select an attack, and the click will grab a target.
 
