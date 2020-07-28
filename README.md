@@ -9,7 +9,7 @@ JavaScript
 jQuery
 Bootstrap
 
-# Nation War Designing.
+## Things to do
 
 - Build Player class and Game object.
 - Build basic constructors, attack methods, build methods
@@ -18,7 +18,7 @@ Bootstrap
 - Make onClick methods call attack functions.
 - Switch activity between players correctly after each player attacks.
 
-## User Stories
+### User Stories
 - The game gives an alert which starts the game.
 - Two players can play the game, clicking buttons to interact.
 - Buttons will send infantry, aircraft, missile attacks to certain cities.
@@ -27,7 +27,7 @@ Bootstrap
 - Once both players make a move, a turn is iterated. It does not matter the player order.
 - Even on last turn where one player has no population, they are still allowed to continue attacking. This allows for a possible tie where a "Mutually Assured Destruction" has occurred. The end is when all cities are gone and all attacks are exhausted.
 
-## Class Player 
+### Class Player 
 ```
 constructor {
     this.cityOne = 100; 
@@ -48,30 +48,39 @@ attackInfantry(target) {
 }
 ```
 
+```
 attackAircraft(target) {
     * We will use a Math.random() and Math.floor() to initiate an attack value that has a maximum of 10.
     * This method will also decrement (-1) this.aircraft
 }
+```
 
+```
 attackMissiles(target) {
     * We will use a Math.random() and Math.floor() to initiate an attack value that has a maximum of 20
     * This method will also decrement (-1) this.missiles
 }
+```
+
+```
 buildInfantry() {
     * Player is able to build between 3 to 10 infantry
 }
+```
 
+```
 buildAircraft() {
     * Player is able to build between 3 to 5 aircraft
 }
-
+```
+```
 buildMissiles() {
     * player is able to build between 1 to 3 missiles
 }
-
+```
 
 ## game object
-
+```
 isGameOver() {
     * We must check if the game has ended on each and every turn.
     * This method will need to run on each turn.
@@ -79,8 +88,10 @@ isGameOver() {
     * An alert or modal should appear on screen to let the players know that the game is now over.
     * All setInterval() related methods should no longer initiate.
 }
-
+```
+```
 addAttack() {
     * We must give players more uses of infantry, aircraft, and missiles.
     * Perhaps infantry, aircraft, and missiles can regenerate at different rates. 
 }
+```
