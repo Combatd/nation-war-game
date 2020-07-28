@@ -41,10 +41,12 @@ constructor {
 
 On the DOM, the attack method will need to somehow allow the player to select an attack, and the click will grab a target.
 
+```
 attackInfantry(target) {
     * We will use a Math.random() and Math.floor() to initiate an attack value that has a maximum of 5.
     * This method will also decrement (-1) this.infantry
 }
+```
 
 attackAircraft(target) {
     * We will use a Math.random() and Math.floor() to initiate an attack value that has a maximum of 10.
