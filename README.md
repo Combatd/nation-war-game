@@ -3,11 +3,13 @@ GA-SEI-CC-5 JavaScript Video Game
 
 https://combatd.github.io/nation-war-game/
 
-HTML5
-CSS3
-JavaScript
-jQuery
-Bootstrap
+2 Player War Game fighting for domination of an island
+
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* Bootstrap
 
 ## Things to do
 
