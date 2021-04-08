@@ -1,9 +1,9 @@
 # nation-war-game
 GA-SEI-CC-5 JavaScript Video Game
 
-https://combatd.github.io/nation-war-game/
+https://combatd.github.io/nation-war-game/ Deployed to GitHub Pages
 
-2 Player War Game fighting for domination of an island
+2 Player War Game fighting for domination of an island using aircraft, missiles, and infantry.
 
 * HTML5
 * CSS3
